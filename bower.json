@@ -12,7 +12,8 @@
     "jquery": "^2.2.2",
     "loader.js": "ember-cli/loader.js#3.2.1",
     "qunit": "~1.18.0",
-    "ember-data-model-fragments": "2.1.2"
+    "ember-data-model-fragments": "2.1.2",
+    "factory-guy": "ember-data-factory-guy#2.4.4"
   },
   "devDependencies": {
     "ember": "2.4.1",
