@@ -1,28 +1,12 @@
 {
   "name": "ember-factory-fragments",
   "dependencies": {
-    "ember": "2.4.1",
-    "ember-cli-shims": "0.1.0",
-    "ember-cli-test-loader": "ember-cli-test-loader#0.1.3",
-    "ember-data": "2.4.3",
-    "ember-load-initializers": "ember-cli/ember-load-initializers#0.1.5",
-    "ember-qunit": "0.4.9",
+    "ember": "2.4.3",
+    "ember-cli-shims": "0.1.1",
+    "ember-cli-test-loader": "0.2.2",
     "ember-qunit-notifications": "0.1.0",
-    "ember-resolver": "~0.1.18",
-    "jquery": "^2.2.2",
-    "loader.js": "ember-cli/loader.js#3.2.1",
-    "qunit": "~1.18.0",
     "ember-data-model-fragments": "2.1.2",
-    "factory-guy": "ember-data-factory-guy#2.4.4"
-  },
-  "devDependencies": {
-    "ember": "2.4.1",
-    "ember-data-model-fragments": "2.1.2",
-    "factory-guy": "ember-data-factory-guy#2.4.4"
-  },
-  "resolutions": {
-    "ember": "2.4.1",
-    "jquery": ">= 1.7.0 < 3.0.0",
+    "jquery-mockjax": "2.0.1",
     "ember-data": "2.4.3"
   }
 }

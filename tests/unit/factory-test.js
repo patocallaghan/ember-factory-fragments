@@ -1,8 +1,14 @@
-import { test, module } from 'ember-qunit';
-import { make } from 'ember-data-factory-guy';
+import { test, moduleForModel } from 'ember-qunit';
+import { make, manualSetup } from 'ember-data-factory-guy';
 
-module('General | Factory');
+moduleForModel('country', 'Unit | Model | country', {
+  needs: ['model:city', 'model:weather'],
+  beforeEach() {
+    manualSetup(this.container);
+  }
+});
 
-test('pathForType pluralizes and underscores', () => {
+test('Creates a country', () => {
   let country = make('country');
+  ok(country);
 });
