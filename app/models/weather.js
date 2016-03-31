@@ -1,0 +1,7 @@
+import DS from 'ember-data';
+import MF from 'model-fragments';
+
+export default MF.Fragment.extend({
+  temperature: DS.attr('number'),
+  description: DS.attr('string')
+});

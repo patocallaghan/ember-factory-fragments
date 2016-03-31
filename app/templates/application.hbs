@@ -1,3 +1,26 @@
 <h2 id="title">Welcome to Ember</h2>
 
+<h3>This is a 'Country' model</h3>
+<ul>
+  <li>ID: {{model.id}}</li>
+  <li>Name: {{model.name}}</li>
+  <hr/>
+  <li>
+    Cities:
+    <ul>
+      {{#each model.cities as |city|}}
+        <li>{{city.name}}</li>
+      {{/each}}
+    </ul>
+  </li>
+  <hr/>
+  <li>
+    Weather:
+    <ul>
+      <li>Temperature: {{model.weather.temperature}}</li>
+      <li>Description: {{model.weather.description}}</li>
+    </ul>
+  </li>
+</ul>
+
 {{outlet}}
