@@ -1,1 +1,0 @@
-/Users/patocallaghan/dev/github/ember-factory-fragments/node_modules/qunitjs/README.md

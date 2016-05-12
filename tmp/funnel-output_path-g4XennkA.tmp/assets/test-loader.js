@@ -1,1 +1,0 @@
-/Users/patocallaghan/dev/github/ember-factory-fragments/tmp/funnel-input_base_path-WpbOyhA3.tmp/0/bower_components/ember-cli-test-loader/test-loader.js

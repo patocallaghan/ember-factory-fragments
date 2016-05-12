@@ -1,1 +1,0 @@
-/Users/patocallaghan/dev/github/ember-factory-fragments/app/resolver.js

@@ -1,1 +1,0 @@
-/Users/patocallaghan/dev/github/ember-factory-fragments/tmp/funnel-input_base_path-HmZCAAh0.tmp/0/components/app-version.js

@@ -1,1 +1,0 @@
-define("ember-factory-fragments/tests/integration/example-test", ["exports"], function (exports) {});
