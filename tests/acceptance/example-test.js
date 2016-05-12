@@ -14,7 +14,6 @@ moduleForAcceptance('Acceptance | example', {
 test('visiting /', function(assert) {
   let mock = buildList('country', 2);
   mock.unwrap();
-  console.log(mock.countries);
   $.mockjax({
     url: "/countries",
     responseText: JSON.stringify(mock.countries)
