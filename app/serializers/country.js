@@ -1,9 +1,13 @@
 import DS from 'ember-data';
-import BaseSerializer from 'ember-factory-fragments/serializers/application';
+import JSONSerializer from 'ember-factory-fragments/serializers/application';
 
-export default BaseSerializer.extend(DS.EmbeddedRecordsMixin, {
+export default JSONSerializer.extend(DS.EmbeddedRecordsMixin, {
   attrs: {
     cities: { embedded: 'always' },
-    weather: { embedded: 'always' }
+    weather: { embedded: 'always' },
+    regions: {
+      serialize: false,
+      deserialize: 'records'
+    }
   }
 });

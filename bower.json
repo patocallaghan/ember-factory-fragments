@@ -8,5 +8,8 @@
     "ember-data-model-fragments": "2.1.2",
     "jquery-mockjax": "2.0.1",
     "ember-data": "2.4.3"
+  },
+  "resolutions": {
+    "ember-data": "2.4.3"
   }
 }

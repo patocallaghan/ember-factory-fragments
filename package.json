@@ -33,11 +33,14 @@
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "2.4.3",
-    "ember-data-factory-guy": "2.4.4",
+    "ember-data-factory-guy": "2.5.6",
     "ember-data-model-fragments": "2.1.2",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
-    "loader.js": "^4.0.1"
+    "express": "4.13.4",
+    "glob": "4.5.3",
+    "loader.js": "^4.0.1",
+    "morgan": "1.7.0"
   }
 }

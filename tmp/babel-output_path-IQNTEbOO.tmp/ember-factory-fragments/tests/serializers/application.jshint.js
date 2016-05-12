@@ -1,0 +1,9 @@
+define('ember-factory-fragments/tests/serializers/application.jshint', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint - serializers/application.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(false, 'serializers/application.js should pass jshint.\nserializers/application.js: line 0, col 0, Bad option: \'ender\'.\nserializers/application.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nserializers/application.js: line 2, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\nserializers/application.js: line 4, col 1, \'let\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nserializers/application.js: line 6, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\nserializers/application.js: line 7, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nserializers/application.js: line 7, col 31, \'default parameters\' is only available in ES6 (use \'esversion: 6\').\nserializers/application.js: line 8, col 5, Missing "use strict" statement.\nserializers/application.js: line 11, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nserializers/application.js: line 12, col 5, Missing "use strict" statement.\nserializers/application.js: line 14, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\nserializers/application.js: line 15, col 5, Missing "use strict" statement.\n\n12 errors');
+  });
+});

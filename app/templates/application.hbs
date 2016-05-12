@@ -1,14 +1,15 @@
 <h2 id="title">Welcome to Ember</h2>
 
 <h3>This is a 'Country' model</h3>
+{{#each model as |country|}}
 <ul>
-  <li>ID: {{model.id}}</li>
-  <li>Name: {{model.name}}</li>
+  <li>ID: {{country.id}}</li>
+  <li>Name: {{country.name}}</li>
   <hr/>
   <li>
     Cities:
     <ul>
-      {{#each model.cities as |city|}}
+      {{#each country.cities as |city|}}
         <li>{{city.name}}</li>
       {{/each}}
     </ul>
@@ -17,10 +18,20 @@
   <li>
     Weather:
     <ul>
-      <li>Temperature: {{model.weather.temperature}}</li>
-      <li>Description: {{model.weather.description}}</li>
+      <li>Temperature: {{country.weather.temperature}}</li>
+      <li>Description: {{country.weather.description}}</li>
+    </ul>
+  </li>
+  <li>
+    Regions:
+    <ul>
+      {{#each country.regions as |region|}}
+        <li>Name: {{region.name}}</li>
+        <li>Capital: {{region.capital.name}}</li>
+      {{/each}}
     </ul>
   </li>
 </ul>
+{{/each}}
 
 {{outlet}}
