@@ -6,5 +6,5 @@ export default DS.Model.extend({
   cities: DS.hasMany('city'),
   weather: MF.fragment('weather'),
   // states: DS.hasMany('state'),
-  regions: DS.hasMany('region')
+  // regions: DS.hasMany('region')
 });

@@ -8,7 +8,7 @@ moduleForModel('country', 'Unit | Model | country', {
   }
 });
 
-test('Creates a country', () => {
+test('Creates a country', (assert) => {
   let country = make('country');
-  ok(country);
+  assert.ok(country);
 });

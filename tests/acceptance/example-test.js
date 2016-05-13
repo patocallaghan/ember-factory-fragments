@@ -14,11 +14,11 @@ moduleForAcceptance('Acceptance | example', {
 test('visiting /', function(assert) {
   let mock = buildList('country', 2);
   mock.unwrap();
-  $.mockjax({
-    url: "/countries",
-    responseText: JSON.stringify(mock.countries)
-  });
-  // mockFindAll('country').returns({ json: mock });
+  // $.mockjax({
+  //   url: "/countries",
+  //   responseText: JSON.stringify(mock.countries)
+  // });
+  mockFindAll('country').returns({ json: mock });
   visit('/');
 
   andThen(function() {
