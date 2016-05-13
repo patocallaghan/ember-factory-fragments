@@ -2,8 +2,7 @@
   "name": "ember-data",
   "repo": "components/ember-data",
   "description": "A data persistence library for Ember.js.",
-  "version": "2.4.3",
-  "license": "MIT",
+  "version": "2.2.1",
   "main": "ember-data.js",
   "scripts": [
     "ember-data.js",
@@ -12,5 +11,6 @@
   ],
   "dependencies": {
     "components/ember": ">= 2.0.0 < 3.0.0"
-  }
+  },
+  "license": "MIT"
 }
