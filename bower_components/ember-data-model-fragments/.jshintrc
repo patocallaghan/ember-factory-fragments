@@ -1,7 +1,0 @@
-{
-  "esnext": true,
-  "boss": true,
-  "eqnull": true,
-  "expr": true,
-  "unused": true
-}
